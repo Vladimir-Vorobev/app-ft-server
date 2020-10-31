@@ -1,0 +1,35 @@
+{
+  "name": "christopher_robin_school_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vladimir Vorobev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.24",
+    "node-json-db": "^1.1.0",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladimir-Vorobev/ChristopherRobinSchoolServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vladimir-Vorobev/ChristopherRobinSchoolServer/issues"
+  },
+  "homepage": "https://github.com/Vladimir-Vorobev/ChristopherRobinSchoolServer#readme"
+}
